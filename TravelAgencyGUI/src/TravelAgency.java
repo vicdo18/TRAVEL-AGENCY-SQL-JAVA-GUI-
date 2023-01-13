@@ -1,8 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.Connection;
-import java.sql.DriverManager;
+import java.sql.*;
 
 public  class TravelAgency extends JDialog  {
 
@@ -14,6 +13,8 @@ public  class TravelAgency extends JDialog  {
         private JButton button;
         private JTextField enjoyTheWorldEnjoyTextField;
         private JFrame frame;
+
+        public static int LoginComplete =0;
 
 
         public TravelAgency(JFrame parent) {
@@ -49,45 +50,24 @@ public  class TravelAgency extends JDialog  {
                 return;
             }
 
-            if (!password.equals("root") || !username.equals("host")) {
+            if (!password.equals("soulele3059@") || !username.equals("root")) {
                 JOptionPane.showMessageDialog(this,
                         "The password and the username is not confirmed",
                         "Try again",
                         JOptionPane.ERROR_MESSAGE);
                 return;
+
             } else {
                 JOptionPane.showMessageDialog(this,
                         "Login succesful",
                         "Enjoy your journay with Travel Booth",
                         JOptionPane.INFORMATION_MESSAGE);
+                LoginComplete=1;
                 return;
             }
         }
 
-            private void connectToDatabase(String username, String password){
-
-              final String DB_URL= "";
-              final String USERNAME= "root";
-              final String PASSWORD="";
-
-              try{
-                  Connection connection = DriverManager.getConnection(DB_URL,USERNAME,PASSWORD);
-
-                  connection.close();
-
-              }catch(Exception e){
-                  e.printStackTrace();
-                }
-
-        }
-
-
-        public static void main(String[] args) {
-            TravelAgency form = new TravelAgency(null);
-        }
-
-
-    }
+}
 
 
 
