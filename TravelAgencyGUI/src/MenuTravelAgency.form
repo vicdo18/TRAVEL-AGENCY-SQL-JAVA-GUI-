@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MenuTravelAgency">
+  <grid id="27dc6" binding="menu" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="677" height="657"/>
+    </constraints>
+    <properties>
+      <background color="-16776173"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="df83" layout-manager="GridLayoutManager" row-count="18" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12632001"/>
+          <font name="Arial Black" size="12" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <vspacer id="e4cfc">
+            <constraints>
+              <grid row="1" column="3" row-span="9" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="e51d0" class="javax.swing.JTextField" binding="chooseField">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12632001"/>
+              <font name="Arial Black" size="12" style="1"/>
+              <foreground color="-15615065"/>
+              <text value="Choose one of the following actions:"/>
+            </properties>
+          </component>
+          <component id="10f9f" class="javax.swing.JLabel" binding="LabelInsert">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="15"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="12" style="1"/>
+              <foreground color="-15615065"/>
+              <text value="Choose a table to insert,delete or modify:"/>
+            </properties>
+          </component>
+          <component id="9b9b0" class="javax.swing.JLabel" binding="TripInfoLabel">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="11" style="1"/>
+              <foreground color="-15615065"/>
+              <text value="According to the date show the informations of a trip"/>
+            </properties>
+          </component>
+          <component id="785fb" class="javax.swing.JButton" binding="TripButton">
+            <constraints>
+              <grid row="10" column="2" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15771292"/>
+              <text value="Show Info"/>
+            </properties>
+          </component>
+          <component id="7528a" class="javax.swing.JLabel" binding="DepartureDate">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="DialogInput" size="12" style="1"/>
+              <foreground color="-5898244"/>
+              <text value="Departure Date:"/>
+            </properties>
+          </component>
+          <component id="b6cf6" class="javax.swing.JLabel" binding="ReturnDate">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="DialogInput" size="12" style="1"/>
+              <foreground color="-5898244"/>
+              <text value="Return Date:"/>
+            </properties>
+          </component>
+          <component id="bf454" class="javax.swing.JTextField" binding="textReturn">
+            <constraints>
+              <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="125" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="65e87" class="javax.swing.JLabel" binding="ClientLabel">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="12" style="1"/>
+              <foreground color="-15615065"/>
+              <text value="Search a client:"/>
+            </properties>
+          </component>
+          <component id="8fc6e" class="javax.swing.JTextField" binding="textClient">
+            <constraints>
+              <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="125" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a0df1" class="javax.swing.JLabel" binding="BranchManagerLabel">
+            <constraints>
+              <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="10" style="1"/>
+              <foreground color="-15615065"/>
+              <text value="Branch Manager Informations"/>
+            </properties>
+          </component>
+          <component id="9850b" class="javax.swing.JButton" binding="ManagerButton">
+            <constraints>
+              <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15771292"/>
+              <text value="Show Manager Info"/>
+            </properties>
+          </component>
+          <component id="8c7a1" class="javax.swing.JLabel" binding="BranchEmployeeLabel">
+            <constraints>
+              <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="10" style="1"/>
+              <foreground color="-15615065"/>
+              <text value="Branch Employee Informations"/>
+            </properties>
+          </component>
+          <component id="4dc20" class="javax.swing.JButton" binding="EmployeeButton">
+            <constraints>
+              <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15771292"/>
+              <text value="Show Employee Info"/>
+            </properties>
+          </component>
+          <component id="5f895" class="javax.swing.JLabel" binding="ITinsertLabel">
+            <constraints>
+              <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="12" style="1"/>
+              <foreground color="-15615065"/>
+              <text value="Insert an IT:"/>
+            </properties>
+          </component>
+          <component id="9ce63" class="javax.swing.JTextField" binding="textIT">
+            <constraints>
+              <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="125" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="61da7" class="javax.swing.JButton" binding="insertITButton" default-binding="true">
+            <constraints>
+              <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15771292"/>
+              <text value="Insert IT"/>
+            </properties>
+          </component>
+          <component id="b10c2" class="javax.swing.JLabel" binding="logInfoLabel">
+            <constraints>
+              <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="12" style="1"/>
+              <foreground color="-15615065"/>
+              <text value="Show Log Table"/>
+            </properties>
+          </component>
+          <component id="a7573" class="javax.swing.JButton" binding="LogButton">
+            <constraints>
+              <grid row="17" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15771292"/>
+              <hideActionText value="false"/>
+              <text value="Show Log Info"/>
+            </properties>
+          </component>
+          <component id="8478b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="20" style="1"/>
+              <foreground color="-15615065"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="             Welcome to Travel Booth IT manager. "/>
+            </properties>
+          </component>
+          <component id="52d0" class="javax.swing.JButton" binding="InsertButton">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15771292"/>
+              <text value="Insert "/>
+            </properties>
+          </component>
+          <component id="2482a" class="javax.swing.JTextField" binding="textDeparture">
+            <constraints>
+              <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="125" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="52083" class="javax.swing.JButton" binding="findButton" default-binding="true">
+            <constraints>
+              <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15771292"/>
+              <text value="Find"/>
+            </properties>
+          </component>
+          <component id="619a6" class="javax.swing.JButton" binding="ModifyButton">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15771292"/>
+              <text value="Modify"/>
+            </properties>
+          </component>
+          <component id="ad654" class="javax.swing.JButton" binding="DeleteButton">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15771292"/>
+              <text value="Delete"/>
+            </properties>
+          </component>
+          <component id="26665" class="javax.swing.JComboBox" binding="InsertBox">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="125" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12632001"/>
+              <foreground color="-5898244"/>
+              <model>
+                <item value="branch"/>
+                <item value="worker"/>
+                <item value="guide"/>
+                <item value="admin"/>
+                <item value="driver"/>
+                <item value="trip"/>
+                <item value="phones"/>
+                <item value="event"/>
+                <item value="destination"/>
+                <item value="travel_to"/>
+                <item value="manages"/>
+                <item value="reservation"/>
+                <item value="languages"/>
+                <item value="offers"/>
+                <item value="reservation_offers"/>
+                <item value="it"/>
+              </model>
+            </properties>
+          </component>
+          <component id="82c0" class="javax.swing.JTable" binding="InfoTable">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
